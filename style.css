@@ -12,21 +12,20 @@ box-sizing: border-box ;
     color: #F7F7F7;
 
 }
-.menu{
-  list-style: none;
-  margin-left: 35em;
-  font-size: 20px;
-}
-.menu li{
-    display: inline;  
-    
-}
-.menu li a{
-    padding: 25px;
-    display: inline-block;
+nav{
+    font-size: 25px;
     text-decoration: none;
+
 }
-.menu li:hover{
-    background-color: rgb(126, 117, 117);
-}
+nav ul{
+    float: right;
+    margin-right: 25px;
+    margin-top: 32px;
     
+    
+}
+nav ul li{
+    display: inline;
+    margin: 10px;
+    
+}

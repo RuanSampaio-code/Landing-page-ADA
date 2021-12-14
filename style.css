@@ -15,17 +15,18 @@ box-sizing: border-box ;
 .menu{
   list-style: none;
   margin-left: 35em;
-  font-size: 40px;
+  font-size: 20px;
 }
 .menu li{
     display: inline;  
     
 }
 .menu li a{
-    padding: 40px;
+    padding: 25px;
     display: inline-block;
+    text-decoration: none;
 }
-.menu li a:hover{
-    background-color: white;
+.menu li:hover{
+    background-color: rgb(126, 117, 117);
 }
     

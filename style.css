@@ -10,7 +10,6 @@ box-sizing: border-box ;
 .pagina1{
     background: #2D314A;
     color: #F7F7F7;
-
 }
 
 header{
@@ -37,33 +36,34 @@ nav > a{
     margin-top: 57px;
     margin-left: 388px;
     letter-spacing: 8px;
+   
+}
+
+.items{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: -60px;
+    
+}  
+
+.empresa{
     display: inline-block;
-}
-.titulos {
-    display: inline;
-    margin-top: 0px;
-
-}
-
-.titulos >h1{
-    margin-top: 50px;
-    margin-left: 104px;
     text-align: center;
-    width: 1200px;
-    font-size: 45px;
-    display: inline-block;
-      
+    font-size: 42px;
+    margin-left: 0px;
+    
 }
-.imgtela1{
-    width: 400px;
-    margin-left: 100px;
+.imagem1{
+    height: 270px;
+    margin-left: -300px;
+    
 }
-
-
 
 .botao1{
-    margin-left: 500px;
-    margin-top: 70px;
+    display: block;
+    margin-top: 0px;
+    margin-left: 550px;
     height: 80px;
     width: 300px;
     font-size: 32px;
@@ -72,12 +72,18 @@ nav > a{
 
 }
 
-
-
-.sobrenos{
+.pagina2{
     background-color: #FFFEFE;
     margin-top: 200px;
     color: grey;
+    height: 1500px;
 }
+.titulo2{
+    font-size: 35px;
+    mar
+   
 
-
+}
+.sobrenos{
+    margin-top:100px;
+}

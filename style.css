@@ -22,6 +22,7 @@ header{
     padding-left: 0px;
 }
 
+
 .titulos{
     min-width: 300px;
     max-width: 2000px;
@@ -42,11 +43,16 @@ nav > a{
    
 
 .universidade{
+    display: inline-block;
+    width: 700px;
     font-size: 20px;
     color: rgb(166, 164, 164);
     margin-top: 57px;
-    margin-left: 388px;
+    margin-left: 338px;
     letter-spacing: 8px;
+    
+   
+
    
 }
 
@@ -59,7 +65,7 @@ nav > a{
 }  
 
 .empresa{
-    display: inline-block;
+    display: block;
     text-align: center;
     font-size: 42px;
     margin-left: 0px;
@@ -74,7 +80,7 @@ nav > a{
 .botao1{
     display: block;
     margin-top: 0px;
-    margin-left: 550px;
+    margin-left: 520px;
     height: 65px;
     width: 300px;
     font-size: 32px;
@@ -97,5 +103,10 @@ nav > a{
 .listasobre{
     font-size: 32px;
     margin-left: 50px;
+    width: 800px;
+    margin-top: 75px;
+}
+.l1{
     
+    height: 250px;
 }

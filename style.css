@@ -29,7 +29,14 @@ header{
 nav > a{
     margin: 48px;
     
+    
 }
+.menu1{
+
+    
+}
+   
+
 .universidade{
     font-size: 20px;
     color: rgb(166, 164, 164);
@@ -80,10 +87,6 @@ nav > a{
 }
 .titulo2{
     font-size: 35px;
-    mar
+    
    
-
-}
-.sobrenos{
-    margin-top:100px;
 }

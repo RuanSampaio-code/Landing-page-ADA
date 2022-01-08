@@ -21,18 +21,22 @@ header{
     font-size: 24px;
     padding-left: 0px;
 }
+
+.titulos{
+    min-width: 300px;
+    max-width: 2000px;
+    margin: auto;
+}
 .imglogo{
     width: 400px;
     display: inline-block;
+    min-width: 320px;
+    
     
 }
 nav > a{
     margin: 48px;
     
-    
-}
-.menu1{
-
     
 }
    
@@ -62,7 +66,7 @@ nav > a{
     
 }
 .imagem1{
-    height: 270px;
+    height: 250px;
     margin-left: -300px;
     
 }
@@ -71,7 +75,7 @@ nav > a{
     display: block;
     margin-top: 0px;
     margin-left: 550px;
-    height: 80px;
+    height: 65px;
     width: 300px;
     font-size: 32px;
     border-radius: 20px;
@@ -80,8 +84,8 @@ nav > a{
 }
 
 .pagina2{
-    background-color: #FFFEFE;
     margin-top: 200px;
+    margin-left: 320px;
     color: grey;
     height: 1500px;
 }
@@ -89,4 +93,9 @@ nav > a{
     font-size: 35px;
     
    
+}
+.listasobre{
+    font-size: 32px;
+    margin-left: 50px;
+    
 }

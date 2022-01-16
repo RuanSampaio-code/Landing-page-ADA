@@ -105,8 +105,14 @@ nav > a{
     margin-left: 50px;
     width: 800px;
     margin-top: 75px;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
 }
 .l1{
-    
     height: 250px;
+    
+}
+.img2{
+    
 }

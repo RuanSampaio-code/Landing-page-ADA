@@ -88,31 +88,52 @@ nav > a{
     background-color: #47BAE9;
 
 }
+.back2{
+    background-color: rgb(255, 255, 255);
+    width: auto;
+    height: auto;
+}
 
 .pagina2{
-    margin-top: 200px;
-    margin-left: 320px;
+
     color: grey;
-    height: 1500px;
-}
-.titulo2{
-    font-size: 35px;
+    margin: auto;
+    margin-top: 200px;
+    display: flexbox;
     
    
 }
 .listasobre{
-    font-size: 32px;
-    margin-left: 50px;
-    width: 800px;
-    margin-top: 75px;
+    margin-left: 300px;
     display: inline-block;
-    justify-content: center;
-    align-items: center;
+    margin-top: 100px;
 }
-.l1{
-    height: 250px;
+.titulo2{
+    width: 400px;
+    min-width: 320px;
+    margin-left: 270px;
+    justify-content: space-around;
+}
+.items2{
     
+
 }
 .img2{
+    margin-left: 250px;
+    margin-bottom: 50px;
+}
+
+
+
+   
+
+
+
+
+
+  
+.l1{
+    height: 200px;
+    font-size: 22px;
     
 }

@@ -134,17 +134,22 @@ nav > a{
     margin: auto;
     text-align: center;
 }
+.titulo3{
+    text-align:left;
+    margin-bottom: 100px;
+}
 .pagina3{
     margin: auto;
     display: block;
-    padding: 100px;
+    padding: 200px;
+    color: #C4C4C4 ;
 
 }
 .linha1{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    margin-bottom: 100px;
+    margin-bottom: 200px;
 
 
 }
@@ -153,7 +158,7 @@ nav > a{
     flex-direction: column;
     text-align: center;
     align-items: center;
-    font-size: 26px;
+    font-size: 20px;
     
 }
 .imgmob{
@@ -165,7 +170,7 @@ nav > a{
     flex-direction: column;
     text-align: center;
     align-items: center;
-    font-size: 26px;
+    font-size: 20px;
 }
 .linha2{
     display: flex;
@@ -178,14 +183,16 @@ nav > a{
     flex-direction: column;
     text-align: center;
     align-items: center;
-    font-size: 26px;
-
+    font-size: 20px;
 }
 .chatbot{
     display: flex;
     flex-direction: column;
     text-align: center;
     align-items: center;
-    font-size: 26px;
+    font-size: 20px;
 
+}
+.topicopag3{
+    margin-top: 25px;
 }

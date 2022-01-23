@@ -136,12 +136,15 @@ nav > a{
 }
 .pagina3{
     margin: auto;
-    display: flex;
+    display: block;
     padding: 100px;
 
 }
 .linha1{
-    display: inline-block;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 100px;
 
 
 }
@@ -150,4 +153,39 @@ nav > a{
     flex-direction: column;
     text-align: center;
     align-items: center;
+    font-size: 26px;
+    
+}
+.imgmob{
+    width: 200px;
+}
+.desenvweb{
+    
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    font-size: 26px;
+}
+.linha2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+.desenvsist{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    font-size: 26px;
+
+}
+.chatbot{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    font-size: 26px;
+
 }

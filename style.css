@@ -124,19 +124,30 @@ nav > a{
     margin-left: 250px;
     margin-bottom: 50px;
     min-width: 320px;
-}
-
-
-
-   
-
-
-
-
-
-  
+}  
 .l1{
     height: 200px;
     font-size: 22px;
     
+}
+.servicos{
+    margin: auto;
+    text-align: center;
+}
+.pagina3{
+    margin: auto;
+    display: flex;
+    padding: 100px;
+
+}
+.linha1{
+    display: inline-block;
+
+
+}
+.desenvmob{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
 }

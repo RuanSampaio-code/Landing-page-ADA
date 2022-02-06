@@ -39,6 +39,7 @@ nav > a{
     margin: 48px;
     
     
+    
 }
    
 
@@ -82,8 +83,19 @@ nav > a{
     height: 65px;
     width: 300px;
     font-size: 32px;
-    border-radius: 20px;
+  
+    border-radius: 20px 20px 20px 20px;
+
+    border-style: ;
+
+    background-color: #2D314A ;
+    color: white;
+
+}
+.botao1:hover{
     background-color: #47BAE9;
+    color: #2D314A;
+
 
 }
 .back2{

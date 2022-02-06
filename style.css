@@ -50,8 +50,6 @@ nav > a{
     margin-top: 57px;
     margin-left: 338px;
     letter-spacing: 8px;
-    
-   
 
    
 }
@@ -195,4 +193,35 @@ nav > a{
 }
 .topicopag3{
     margin-top: 25px;
+}
+
+.container{
+    background-color:  rgb(255, 255, 255);
+    display: block;
+    padding: 200px;
+    color: gray;
+   
+
+}
+.pagina4{
+   
+    display: block;
+    padding: 20px;
+    color: gray;
+    width: 400px;
+    background-color: #E3E2E6 ;
+    margin: auto;
+    
+
+}
+.listforme{
+    list-style-type: none;
+}
+.formu label{
+    display: block;
+    color: black;
+    
+}
+.tituloform{
+    text-align: center;
 }

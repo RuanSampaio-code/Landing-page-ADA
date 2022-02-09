@@ -225,6 +225,8 @@ nav > a{
     box-shadow: 0px 0px 10 5px 1px;
     
 }
+
+
 .listforme{
     list-style-type: none;
 }
@@ -236,4 +238,17 @@ nav > a{
 }
 .tituloform{
     text-align: center;
+}
+.espaco{
+    width: 100%;
+}
+textarea{
+    width: 100%;
+}
+.botaoform{
+    display: flex;
+    width: 100;
+
+
+    
 }

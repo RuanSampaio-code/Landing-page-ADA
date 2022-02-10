@@ -10,6 +10,7 @@ box-sizing: border-box ;
 .pagina1{  
     background: #2D314A;
     color: #F7F7F7;
+    height: 100%;
 }
 
 header{
@@ -21,7 +22,6 @@ header{
     font-size: 24px;
     padding-left: 0px;
 }
-
 
 .titulos{
     min-width: 300px;
@@ -42,14 +42,14 @@ nav > a{
    
 
 .universidade{
-    display: inline-block;
+    display: block;
     width: 700px;
     font-size: 20px;
     color: rgb(166, 164, 164);
-    margin-top: 57px;
-    margin-left: 338px;
+    margin-top: 64px;
+    margin: auto;
+    margin-bottom: 5%;
     letter-spacing: 8px;
-
 }
 
 .items{
@@ -70,12 +70,14 @@ nav > a{
 .imagem1{
     height: 250px;
     margin-left: -300px;
+    min-width: 320px;
+    min-height: 200px;
     
 }
 
 .botao1{
     display: block;
-    margin-top: 0px;
+    margin-top: 50px;
     margin-left: 520px;
     height: 65px;
     width: 300px;
@@ -263,12 +265,13 @@ nav > a{
 textarea{
     width: 100%;
     border-radius: 8px;
+    background-color: #DBDADA;
 }
 .botaoform{
     background-color: #2D314A;
 
   
-
+}
 .rodape{
     height: 50px;
 }

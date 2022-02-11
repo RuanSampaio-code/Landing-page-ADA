@@ -27,6 +27,7 @@ header{
     min-width: 300px;
     max-width: 2000px;
     margin: auto;
+    margin-top: 50px;
 }
 .imglogo{
     width: 400px;
@@ -37,6 +38,7 @@ header{
 }
 nav > a{
     margin: 48px;
+    border: solid;
     
 }
    
@@ -82,15 +84,17 @@ nav > a{
     height: 65px;
     width: 300px;
     font-size: 32px;
+    border: solid gray;
     border-radius: 20px 20px 20px 20px;
-    border-style: ;
     background-color: #2D314A ;
     color: white;
+   
 
 }
 .botao1:hover{
     background-color: #47BAE9;
     color: #2D314A;
+    border: none;
 }
 .back2{
     background-color: rgb(255, 255, 255);
@@ -98,7 +102,7 @@ nav > a{
     min-width: none;
     width: auto;
     height: auto;
-    padding: px;
+    
 }
 
 .pagina2{

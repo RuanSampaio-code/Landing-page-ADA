@@ -259,8 +259,11 @@ nav > a{
     border-radius: 8px;
     background-color: #DBDADA;
     text-decoration: none;
+    border: solid  #62667a 2px;
+    
     font-size: 23px;
     box-shadow: none;
+
     
 }
 .espaco:hover{

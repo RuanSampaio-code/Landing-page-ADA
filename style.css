@@ -11,6 +11,7 @@ box-sizing: border-box ;
     background: #2D314A;
     color: #F7F7F7;
     height: 100%;
+    width: 100%;
 }
 
 header{
@@ -101,9 +102,10 @@ nav > a{
 .back2{
     background-color: rgb(255, 255, 255);
     text-align: center;
-    min-width: none;
-    width: auto;
+
+    width: 100%;
     height: auto;
+
     
 }
 
@@ -130,12 +132,11 @@ nav > a{
 }
 
 .img2{
-    display: block;
+    display: inline-block;
     margin-left: 250px;
     margin-bottom: 50px;
-    min-width: 30px;
-    max-width: 200px;
-    min-width: 200px;
+    max-width: 400px;
+    min-width: 100px;
 }  
 .l1{
     height: 200px;
@@ -281,7 +282,14 @@ textarea{
 }
 .botaoform{
     padding: 10px;
+    background-color:  #47BAEe;
+    border: 1px solid gray;
+    cursor: pointer;
+    width: 30%;
+    font-size: 70%;
+    border-radius: 5px;
 }
 .rodape{
     height: 100px;
+
 }

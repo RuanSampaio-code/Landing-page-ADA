@@ -73,10 +73,12 @@ nav > a{
     
 }
 .imagem1{
+    display: inli;
     height: 250px;
     margin-left: -300px;
     min-width: 320px;
     min-height: 200px;
+    justify-content: space-around;
     
 }
 

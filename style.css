@@ -1,17 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap');
 
 *{
-font-family: 'Josefin Sans', sans-serif;
-margin: 0;
-padding: 0;
-box-sizing: border-box ;
+    font-family: 'Josefin Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box ;
 }
 
-.pagina1{  
-    background: #2D314A;
+body{
+    background-color: #2D314A;
+   
+   
+
+}
+.pagina1{
+      
     color: #F7F7F7;
-    height: 100%;
-    width: 100%;
+    
+   
 }
 
 header{
@@ -26,7 +32,7 @@ header{
 
 .titulos{
     min-width: 300px;
-    max-width: 2000px;
+    max-width: 100%;
     margin: auto;
     margin-top: 50px;
 }
@@ -62,6 +68,7 @@ nav > a{
     align-items: center;
     justify-content: space-around;
     margin-left: -60px;
+    flex-direction: column;
     
 }  
 
@@ -73,19 +80,23 @@ nav > a{
     
 }
 .imagem1{
-    display: inli;
+ 
     height: 250px;
-    margin-left: -300px;
+    margin-left: 00px;
     min-width: 320px;
     min-height: 200px;
     justify-content: space-around;
     
 }
+.selecionado{
+    display: flex;
+    justify-content: space-around;
+}
 
 .botao1{
-    display: block;
+    display: inline;
     margin-top: 50px;
-    margin-left: 520px;
+    margin-left: 50px;
     height: 65px;
     width: 300px;
     font-size: 32px;
@@ -104,15 +115,15 @@ nav > a{
 .back2{
     background-color: rgb(255, 255, 255);
     text-align: center;
-
+    height: 100%;
     width: 100%;
-    height: auto;
+  
 
-    
+
 }
 
 .pagina2{
-
+    width: 100%;
     color: grey;
     margin: auto;
     margin-top: 200px;
@@ -137,8 +148,8 @@ nav > a{
     display: inline-block;
     margin-left: 250px;
     margin-bottom: 50px;
-    max-width: 400px;
-    min-width: 100px;
+    max-width: 300px;
+    min-width: 70px;
 }  
 .l1{
     height: 200px;
@@ -158,6 +169,8 @@ nav > a{
     display: block;
     padding: 200px;
     color: #C4C4C4 ;
+    width: 100%;
+    
 
 }
 .pagina3 a{
@@ -221,11 +234,13 @@ nav > a{
     display: block;
     padding: 200px;
     color: gray;
+    width: 100%;
    
 
 }
 .pagina4{
-   
+
+    width: 100%;
     display: block;
     padding: 20px;
     color: gray;
@@ -315,13 +330,10 @@ footer h2{
 
 }
 
-
 #iconlocal{
     width: 20px;
 
 }
-
-
 
 #iconemail{
     width: 20px;

@@ -51,20 +51,21 @@ header{
     
 }
 
-
-
-.navebar a{
-    
-    text-decoration: none;
-    margin: 10%; 
-    font-size: 18px;
-    border: solid 2px;
-    border-radius: 5px;
-    
+.navebar input{
     background-color: #2D314A;
     color: #C4C4C4;
-    text-align: center;
-    
+    border: solid 2px gray;
+    font-size: 18px;
+    margin: 14%;
+    border-radius: 8px;
+    padding: 4px;
+    cursor: pointer;
+}
+.navebar input:hover{
+    background-color: #47BAE9;
+    color: #2D314A;
+    border: #47BAE9 solid;
+
 }
 
 .universidade{
@@ -322,6 +323,8 @@ textarea{
     width: 30%;
     font-size: 70%;
     border-radius: 5px;
+   
+    align-items: center;
 }
 footer h2{
     text-align: center;

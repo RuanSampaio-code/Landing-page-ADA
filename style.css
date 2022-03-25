@@ -9,6 +9,7 @@
 
 body{
     background-color: #2D314A;
+
    
    
 
@@ -16,6 +17,7 @@ body{
 .pagina1{
       
     color: #F7F7F7;
+    width: 100%;
 }
 
 
@@ -58,7 +60,7 @@ header{
     font-size: 18px;
     margin: 14%;
     border-radius: 8px;
-    padding: 4px;
+    padding: 10px;
     cursor: pointer;
 }
 .navebar input:hover{
@@ -189,6 +191,7 @@ header{
     color: #C4C4C4 ;
     width: 100%;
     
+    
 
 }
 .pagina3 a{
@@ -215,6 +218,7 @@ header{
     
 }
 .imgmob{
+    min-width: 150px;
     width: 200px;
 }
 .desenvweb{
@@ -224,6 +228,7 @@ header{
     text-align: center;
     align-items: center;
     font-size: 20px;
+    
 }
 .linha2{
     display: flex;

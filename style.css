@@ -10,10 +10,8 @@
 body{
     background-color: #2D314A;
 
-   
-   
-
 }
+
 .pagina1{
       
     color: #F7F7F7;
@@ -33,7 +31,7 @@ header{
 }
 
 .titulos{
-    min-width: 300px;
+    min-width: 0px;
     max-width: 100%;
     margin: auto;
     margin-top: 50px;
@@ -41,14 +39,13 @@ header{
 .imglogo{
     width: 400px;
     display: inline-block;
-    min-width: 320px;
+    min-width: 50px;
     
     
 }
 
 .navebar{
     display: flex;
-    flex-direction: row;
     justify-content: space-around;
     
 }
@@ -58,7 +55,7 @@ header{
     color: #C4C4C4;
     border: solid 2px gray;
     font-size: 18px;
-    margin: 14%;
+    margin: 20px;
     border-radius: 8px;
     padding: 10px;
     cursor: pointer;
@@ -73,8 +70,8 @@ header{
 .universidade{
     box-sizing: border-box;
     display: block;
-    max-width: 700px;
-    min-width: 300px;
+    max-width: 600px;
+    min-width: 200px;
     font-size: 45%;
     color: rgb(166, 164, 164);
     margin-top: 64px;
@@ -86,7 +83,7 @@ header{
 .items{
     display: flex;
     align-items: center;
-    justify-content: space-around;
+   
     margin-left: -60px;
     flex-direction: column;
     
@@ -96,16 +93,16 @@ header{
     display: block;
     text-align: center;
     font-size: 42px;
-    margin-left: 0px;
+  
     
 }
 .imagem1{
+    max-width: 270px;
+    margin: auto;
+    margin-left: -100px;
+    align-items: center;
  
-    height: 250px;
-    margin-left: 00px;
-    min-width: 320px;
-    min-height: 200px;
-    justify-content: space-around;
+    
     
 }
 .selecionado{
@@ -118,7 +115,7 @@ header{
     margin-top: 50px;
     margin-left: 50px;
     height: 65px;
-    width: 300px;
+    max-width: 300px;
     font-size: 32px;
     border: solid gray;
     border-radius: 20px 20px 20px 20px;
@@ -143,7 +140,7 @@ header{
 }
 
 .pagina2{
-    width: 100%;
+    max-width: 100%;
     color: grey;
     margin: auto;
     margin-top: 200px;
@@ -169,7 +166,7 @@ header{
     display: inline-block;
     margin-left: 250px;
     margin-bottom: 50px;
-    max-width: 300px;
+    max-width: 200px;
     min-width: 70px;
 }  
 .l1{
@@ -220,7 +217,7 @@ header{
 }
 .imgmob{
     min-width: 150px;
-    width: 200px;
+    max-width: 200px;
 }
 .desenvweb{
     
@@ -268,15 +265,16 @@ header{
     display: block;
     padding: 20px;
     color: gray;
-    height: 600px;
+    max-height: 600px;
     background-color: #E3E2E6 ;
     margin: auto;
     border-radius: 10px;
     border-color: gray;
     box-shadow: 0px 0px 8px 1px;
     font-size: 27px;
-    min-width: 300px;
+    min-width: 200px;
     max-width: 500px;
+    
     
 }
 

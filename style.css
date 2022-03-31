@@ -21,6 +21,7 @@ body{
 
 
 header{
+    
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -31,8 +32,7 @@ header{
 }
 
 .titulos{
-    min-width: 0px;
-    max-width: 100%;
+  
     margin: auto;
     margin-top: 50px;
 }
@@ -94,8 +94,12 @@ header{
     text-align: center;
     font-size: 42px;
   
-    
 }
+
+.p_espçamento{
+    margin-top: 0.5em;
+}
+
 .imagem1{
     max-width: 270px;
     margin: auto;

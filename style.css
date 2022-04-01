@@ -47,7 +47,7 @@ header{
 .navebar{
     display: flex;
     justify-content: space-around;
-    margin-left: -60px;
+    margin-left: -80px;
     
 }
 
@@ -155,9 +155,15 @@ header{
     display: flexbox;
     
 }
+.items2{
+    display: flex;
+    justify-content: space-around;
+}
+
 .listasobre{
-    margin-left: auto;
-    display: inline-block;
+   
+    display: flex;
+    flex-direction: column;
     margin-top: 100px;
 }
 .titulo2{
@@ -194,7 +200,7 @@ header{
 .pagina3{
   
     display: block;
-    padding: 200px;
+    padding: 100px;
     color: #C4C4C4 ;
     
     
@@ -221,20 +227,21 @@ header{
     flex-direction: column;
     text-align: center;
     align-items: center;
-    font-size: 1em;
+    font-size: .9em;
     
 }
 .imgmob{
-    min-width: 100px;
-    max-width: 200px;
+    min-width: 50px;
+    max-width: 180px;
 }
+
 .desenvweb{
     
     display: flex;
     flex-direction: column;
     text-align: center;
     align-items: center;
-    font-size: 1em;
+    font-size: .9em;
     
 }
 .linha2{
@@ -249,14 +256,14 @@ header{
     flex-direction: column;
     text-align: center;
     align-items: center;
-    font-size: 1em;
+    font-size: .9em;
 }
 .chatbot{
     display: flex;
     flex-direction: column;
     text-align: center;
     align-items: center;
-    font-size: 1em;
+    font-size: .9em;
 
 }
 
@@ -265,7 +272,7 @@ header{
     display: block;
     padding: 100px;
     color: gray;
-    width: 100%;
+    
    
 
 }
@@ -279,7 +286,7 @@ header{
 }
 .pagina4{
 
-    width: 100%;
+   
     display: block;
     padding: 20px;
     color: gray;
@@ -289,7 +296,7 @@ header{
     border-radius: 10px;
     border-color: gray;
     box-shadow: 0px 0px 8px 1px;
-    font-size: 27px;
+    font-size: 18px;
     min-width: 200px;
     max-width: 500px;
     

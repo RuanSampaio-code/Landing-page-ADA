@@ -47,6 +47,7 @@ header{
 .navebar{
     display: flex;
     justify-content: space-around;
+    margin-left: -60px;
     
 }
 
@@ -59,6 +60,7 @@ header{
     border-radius: 8px;
     padding: 10px;
     cursor: pointer;
+    
 }
 .navebar input:hover{
     background-color: #47BAE9;
@@ -103,7 +105,7 @@ header{
 .imagem1{
     max-width: 260px;
     margin: auto;
-    margin-left: -200px;
+    margin-left: -330px;
     align-items: center;
  
     
@@ -128,11 +130,13 @@ header{
    
 
 }
+
 .botao1:hover{
     background-color: #47BAE9;
     color: #2D314A;
     border: none;
 }
+
 .back2{
     background-color: rgb(255, 255, 255);
     text-align: center;
@@ -162,7 +166,7 @@ header{
     min-width: 320px;
     justify-content: space-around;
     padding-top: 100px;
-    margin-left: 10%;
+    
     
 }
 
@@ -178,16 +182,17 @@ header{
     font-size: 22px;
     
 }
-.servicos{
-    margin: auto;
-    text-align: center;
-}
+
 .titulo3{
-    text-align:left;
-    margin-bottom: 100px;
+    color: rgb(158, 156, 156)  ;
+    margin: 100px;
+    margin-bottom: 0px;
+    text-align: left;
+    
+    
 }
 .pagina3{
-    margin: auto;
+  
     display: block;
     padding: 200px;
     color: #C4C4C4 ;
@@ -238,6 +243,7 @@ header{
     justify-content: space-around;
 
 }
+
 .desenvsist{
     display: flex;
     flex-direction: column;
@@ -257,10 +263,18 @@ header{
 .container{
     background-color:  rgb(255, 255, 255);
     display: block;
-    padding: 200px;
+    padding: 100px;
     color: gray;
     width: 100%;
    
+
+}
+.titulo4{
+    color: rgb(158, 156, 156)  ;
+    display: block;
+    margin-bottom: 100px;
+  
+    
 
 }
 .pagina4{
@@ -301,6 +315,7 @@ header{
     font-size: 20px;
     color: #6C63FF;
 }
+
 .espaco{
     width: 100%;
     padding: 2%;
@@ -313,9 +328,12 @@ header{
 
     
 }
+
 .espaco:hover{
     box-shadow: 0px 0px 3px 0px ;
+
 }
+
 textarea{
     width: 100%;
     border-radius: 8px;
@@ -323,17 +341,19 @@ textarea{
     padding: 2%;
     font-size: 16px;
 }
+
 .botaoform{
     padding: 10px;
     background-color:  #47BAEe;
     border: 1px solid gray;
     cursor: pointer;
-    width: 30%;
+    width: 50%;
     font-size: 70%;
     border-radius: 5px;
    
     align-items: center;
 }
+
 footer h2{
     text-align: center;
     color: #C4C4C4;

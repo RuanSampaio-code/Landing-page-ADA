@@ -94,7 +94,7 @@ header{
 .empresa{
     display: block;
     text-align: center;
-    font-size: 42px;
+    font-size: 2.5em;
   
 }
 
@@ -121,12 +121,13 @@ header{
     margin-top: 50px;
     margin-left: 50px;
     height: 65px;
-    max-width: 270px;
-    font-size: 32px;
+    max-width: 250px;
+    font-size: .7em;
     border: solid gray;
     border-radius: 20px 20px 20px 20px;
     background-color: #2D314A ;
     color: white;
+    padding: 5px;
    
 
 }

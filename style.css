@@ -348,7 +348,14 @@ textarea{
     font-size: 16px;
 }
 
+.botaoformf{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
 .botaoform{
+    display: flex;
     padding: 10px;
     background-color:  #47BAEe;
     border: 1px solid gray;
@@ -356,8 +363,8 @@ textarea{
     width: 50%;
     font-size: 70%;
     border-radius: 5px;
+    justify-content: center;
    
-    align-items: center;
 }
 
 footer h2{

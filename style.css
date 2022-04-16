@@ -391,8 +391,14 @@ footer h2{
 
 }
 
+.rodape a:hover{
+    color: rgb(235, 230, 230);
+    
+}
+
 #iconlocal{
     width: 20px;
+    
 
 }
 
@@ -405,3 +411,4 @@ footer h2{
     width: 20px;
     height: 20px;
 }
+

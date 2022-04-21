@@ -66,6 +66,7 @@ header{
     background-color: #47BAE9;
     color: #2D314A;
     border: #47BAE9 solid;
+    
 
 }
 
@@ -143,10 +144,11 @@ header{
     text-align: center;
     height: 100%;
     width: 100%;
-  
-
-
+    
 }
+
+        
+    
 
 .pagina2{
     max-width: 100%;

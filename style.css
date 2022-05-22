@@ -12,10 +12,11 @@ body{
 
 }
 
-.pagina1{
-      
+.pagina1{  
     color: #F7F7F7;
     width: 100%;
+    padding-bottom: 22px;
+    
 }
 
 
@@ -37,7 +38,7 @@ header{
     margin-top: 50px;
 }
 .imglogo{
-    width: 400px;
+    max-width: 400px;
     display: inline-block;
     min-width: 50px;
     
@@ -75,7 +76,7 @@ header{
     display: block;
     max-width: 600px;
     min-width: 200px;
-    font-size: 45%;
+    font-size: 20px;
     color: rgb(166, 164, 164);
     margin-top: 64px;
     margin: auto;
@@ -86,7 +87,6 @@ header{
 .items{
     display: flex;
     align-items: center;
-   
     margin-left: -60px;
     flex-direction: column;
     
@@ -96,8 +96,9 @@ header{
     display: block;
     text-align: center;
     font-size: 2.5em;
-  
 }
+
+
 
 .p_espçamento{
     margin-top: 0.5em;
@@ -108,9 +109,7 @@ header{
     margin: auto;
     margin-left: -330px;
     align-items: center;
- 
-    
-    
+     
 }
 .selecionado{
     display: flex;
@@ -413,3 +412,28 @@ footer h2{
     height: 20px;
 }
 
+@media (max-width: 1312px){
+    .universidade{
+        font-size: 18px;
+        letter-spacing: 4px;
+    }
+    .empresa{
+        font-size: 24px;
+    }
+    .botao1{
+        font-size: 18px;
+    }
+    .imagem1{
+        margin-left: 0px;
+    }
+
+}
+@media (max-width: 957px){
+    .universidade{
+        font-size: 16px;
+        letter-spacing: 0px;
+    }
+    .empresa{
+        font-size: 20px;
+    }
+}

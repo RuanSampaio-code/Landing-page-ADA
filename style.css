@@ -119,7 +119,6 @@ header{
 .botao1{
     display: inline;
     margin-top: 50px;
- 
     height: 65px;
     max-width: 250px;
     font-size: .7em;
@@ -467,17 +466,23 @@ footer h2{
         display: block;
         margin-left: auto;
         margin-right: auto;
+        margin-bottom: 20px;
     }
     header{
         display: block;
+        margin-top: 50px;
     }
     .navbar{
         margin-left: none;
         justify-content: center;
+        
       
     }
     .navebar input{
         margin: 10px;
         font-size: 12px ;
+    }
+    .pagina2{
+        margin-top: 150px;
     }
 }

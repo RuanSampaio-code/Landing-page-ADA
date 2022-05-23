@@ -15,7 +15,7 @@ body{
 .pagina1{  
     color: #F7F7F7;
     width: 100%;
-    padding-bottom: 22px;
+    padding-top: 22px;
     
 }
 
@@ -436,4 +436,31 @@ footer h2{
     .empresa{
         font-size: 20px;
     }
+}
+@media (max-width:827px){
+
+    
+    .imglogo{
+        max-width: 300px;
+    }
+    .empresa{
+        font-size: 16px;
+        margin-left: 20px;
+    }
+    .selecionado{
+        display: block;
+    }
+    .imagem1{
+        width: 150px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .botao1{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        display: inline-block;
+    }
+
+
 }

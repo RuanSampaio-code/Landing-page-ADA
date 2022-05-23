@@ -161,28 +161,30 @@ header{
 }
 
 .listasobre{
-   
+    width: auto;
     display: flex;
     flex-direction: column;
     margin-top: 100px;
+    padding-left: 40px;
+    padding-right: 20px;
+    padding-bottom: 0px;
 }
+
 .titulo2{
     display: flex;
     margin-left: 10%;
-   
-
     padding-top: 100px;
-    
     
 }
 
 .img2{
     display: inline-block;
-    margin-left: 48px;
+
     margin-bottom: 50px;
     max-width: 200px;
     min-width: 10px;
 }  
+
 .l1{
     height: 200px;
     font-size: 22px;
@@ -397,7 +399,6 @@ footer h2{
 
 #iconlocal{
     width: 20px;
-    
 
 }
 
@@ -460,6 +461,11 @@ footer h2{
         margin-bottom: 20px;
         display: inline-block;
     }
+    .l1{
+        font-size: 18px;
+        height: 150px;
+    }
+    
 }
 @media (max-width:710px){
     .imglogo{
@@ -470,7 +476,7 @@ footer h2{
     }
     header{
         display: block;
-        margin-top: 50px;
+        margin-top: 25px;
     }
     .navbar{
         margin-left: none;
@@ -484,5 +490,8 @@ footer h2{
     }
     .pagina2{
         margin-top: 150px;
+    }
+    .items2{
+        display: block;
     }
 }

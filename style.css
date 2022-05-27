@@ -195,7 +195,7 @@ header{
     color: rgb(158, 156, 156)  ;
     margin: 100px;
     margin-bottom: 0px;
-    text-align: left;
+    margin-left: 10%;
     
     
 }
@@ -282,6 +282,7 @@ header{
     color: rgb(158, 156, 156)  ;
     display: block;
     margin-bottom: 100px;
+    margin-left: 10%;
   
 
 }
@@ -494,4 +495,22 @@ footer h2{
     .items2{
         display: block;
     }
+}
+
+@media (max-width: 677px){
+    .linha1{
+        display: block;
+        margin-bottom: 100px;
+       
+    }
+    .linha2{
+        display: block;
+    }
+    .desenvmob{
+        margin-bottom: 100px;
+    }
+    .desenvsist{
+        margin-bottom: 100px;
+    }
+
 }

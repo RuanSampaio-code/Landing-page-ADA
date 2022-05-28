@@ -30,6 +30,7 @@ header{
     margin-top: 118px;
     font-size: 24px;
     padding-left: 0px;
+    margin-bottom: 100px;
 }
 
 .titulos{
@@ -47,7 +48,7 @@ header{
 
 .navebar{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     margin-left: 0px;
     
 }
@@ -402,7 +403,7 @@ footer h2{
     
 }
 .rodape img{
-    max-width: 200px;
+    width: 200px;
 }
 
 #iconlocal{
@@ -485,15 +486,12 @@ footer h2{
     header{
         display: block;
         margin-top: 12px;
+        margin-bottom: 20px;
     }
-    .navbar{
-        margin-left: none;
-        justify-content: center;
-        
-      
-    }
+  
     .navebar input{
-        margin: 10px;
+        margin: 15px;
+       
         font-size: 12px ;
     }
     .titulos{
@@ -522,10 +520,16 @@ footer h2{
     .desenvsist{
         margin-bottom: 100px;
     }
+    footer{
+        font-size: 10px;
+    }
 
 }
 @media(max-width:424px){
     .espaco{
         font-size: 16px;
+    }
+    .imglogo{
+        max-width: 250px;
     }
 }

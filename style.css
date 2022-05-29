@@ -19,10 +19,7 @@ body{
     
 }
 
-
-
 header{
-    
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -43,8 +40,7 @@ header{
     max-width: 400px;
     display: inline-block;
     min-width: 50px;
-    
-    
+
 }
 
 .navebar{
@@ -153,8 +149,7 @@ li a:hover{
     
 }
 
-        
-
+    
 .pagina2{
     max-width: 100%;
     color: grey;
@@ -198,7 +193,6 @@ li a:hover{
     
 }
 
-
 .servicos{
     padding-top: 100px;
 }
@@ -208,8 +202,8 @@ li a:hover{
     margin-bottom: 0px;
     margin-left: 10%;
     
-    
 }
+
 .pagina3{
   
     display: block;
@@ -222,9 +216,11 @@ li a:hover{
     text-decoration: none;
     color: gray;
 }
+
 .pagina3 a:hover{
     color: white;
 }
+
 .linha1{
     display: flex;
     flex-direction: row;
@@ -245,8 +241,7 @@ li a:hover{
     max-width: 180px;
 }
 
-.desenvweb{
-    
+.desenvweb{    
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -254,6 +249,7 @@ li a:hover{
     font-size: .9em;
     
 }
+
 .linha2{
     display: flex;
     flex-direction: row;
@@ -268,6 +264,7 @@ li a:hover{
     align-items: center;
     font-size: .9em;
 }
+
 .chatbot{
     display: flex;
     flex-direction: column;
@@ -282,21 +279,18 @@ li a:hover{
     display: block;
     padding: 100px 50px 100px 50px;
     color: gray;
-    
    
-
 }
+
 .titulo4{
     color: rgb(158, 156, 156)  ;
     display: block;
     margin-bottom: 100px;
     margin-left: 10%;
-  
 
 }
-.pagina4{
 
-   
+.pagina4{   
     display: block;
     padding: 20px;
     color: gray;
@@ -312,19 +306,17 @@ li a:hover{
     
 }
 
-
 .listforme{
     list-style-type: none;
     
 }
+
 .formu label{
     margin-top: 15px;
     margin-bottom: 15px;
     display: block;
     color: black;
-    
-
-    
+        
 }
 .tituloform{
     text-align: center;
@@ -408,6 +400,7 @@ footer h2{
 .rodape a:hover{
     color: rgb(235, 230, 230);
     
+
 }
 .rodape img{
     width: 200px;
@@ -453,9 +446,8 @@ footer h2{
         font-size: 20px;
     }
 }
-@media (max-width:827px){
 
-    
+@media (max-width:827px){    
     .imglogo{
         max-width: 300px;
     }
@@ -497,12 +489,12 @@ footer h2{
     }
     nav li{
         margin: 4px;
+        margin-bottom: 12px;
     }
   
     li a{
         margin: 10px;
-       
-        font-size: 12px ;
+        font-size: 14px ;
     }
     .titulos{
         margin-top: 20px;

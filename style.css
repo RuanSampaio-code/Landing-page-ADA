@@ -38,6 +38,7 @@ header{
     margin: auto;
     margin-top: 50px;
 }
+
 .imglogo{
     max-width: 400px;
     display: inline-block;
@@ -51,26 +52,32 @@ header{
     justify-content: center;
     margin-left: 0px;
     
-}
-
-.navebar input{
-    background-color: #2D314A;
-    color: #C4C4C4;
-    border: solid 2px gray;
-    font-size: 18px;
-    margin: 20px;
-    border-radius: 8px;
-    padding: 10px;
-    cursor: pointer;
     
 }
-.navebar input:hover{
+
+nav li{
+    list-style: none;
+    margin: 18px;  
+    text-decoration: none;
+}
+
+
+li a{
+    color: gray;
+    text-decoration: none;
+    border: 2px solid gray;
+    padding: 8px;
+    border-radius: 8px;
+    font-size: 20px;
+}
+
+li a:hover{
     background-color: #47BAE9;
     color: #2D314A;
-    border: #47BAE9 solid;
-    
+    border: none;
 
 }
+
 
 .universidade{
     box-sizing: border-box;
@@ -180,7 +187,6 @@ header{
 
 .img2{
     display: inline-block;
-
     margin-bottom: 50px;
     max-width: 200px;
     min-width: 10px;
@@ -192,9 +198,13 @@ header{
     
 }
 
+
+.servicos{
+    padding-top: 100px;
+}
+
 .titulo3{
     color: rgb(158, 156, 156)  ;
-    margin: 100px;
     margin-bottom: 0px;
     margin-left: 10%;
     
@@ -205,11 +215,8 @@ header{
     display: block;
     padding: 100px;
     color: #C4C4C4 ;
-    
-    
-    
-
 }
+
 .pagina3 a{
     margin-top: 10%;
     text-decoration: none;
@@ -270,7 +277,7 @@ header{
 
 }
 
-.container{
+.inscrevase{
     background-color:  rgb(255, 255, 255);
     display: block;
     padding: 100px 50px 100px 50px;
@@ -476,7 +483,7 @@ footer h2{
     }
     
 }
-@media (max-width:710px){
+@media (max-width:740px){
     .imglogo{
         display: block;
         margin-left: auto;
@@ -488,9 +495,12 @@ footer h2{
         margin-top: 12px;
         margin-bottom: 20px;
     }
+    nav li{
+        margin: 4px;
+    }
   
-    .navebar input{
-        margin: 15px;
+    li a{
+        margin: 10px;
        
         font-size: 12px ;
     }
@@ -531,5 +541,8 @@ footer h2{
     }
     .imglogo{
         max-width: 250px;
+    }
+    nav li a{
+        margin: 4px;
     }
 }

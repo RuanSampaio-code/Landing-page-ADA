@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap');
 
+
+html{
+    scroll-behavior: smooth;
+}
 *{
     font-family: 'Josefin Sans', sans-serif;
     margin: 0;
@@ -24,10 +28,10 @@ header{
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
-    margin-top: 118px;
+    margin-top: 40px;
     font-size: 24px;
     padding-left: 0px;
-    margin-bottom: 100px;
+    margin-bottom: 140px;
 }
 
 .titulos{
@@ -421,7 +425,7 @@ footer h2{
     height: 20px;
 }
 
-@media (max-width: 1312px){
+@media (max-width: 1354px){
     .universidade{
         font-size: 18px;
         letter-spacing: 4px;

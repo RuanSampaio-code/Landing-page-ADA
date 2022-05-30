@@ -31,7 +31,7 @@ header{
     margin-top: 40px;
     font-size: 24px;
     padding-left: 0px;
-    margin-bottom: 140px;
+    margin-bottom: 150px;
 }
 
 .titulos{
@@ -175,6 +175,9 @@ li a:hover{
     padding-left: 40px;
     padding-right: 20px;
     padding-bottom: 0px;
+    text-decoration: none;
+    list-style: none;
+    text-align: justify;
 }
 
 .titulo2{
@@ -484,7 +487,7 @@ footer h2{
         display: block;
         margin-left: auto;
         margin-right: auto;
-        margin-bottom: 20px;
+        margin-bottom: 48px;
     }
     header{
         display: block;
@@ -539,6 +542,6 @@ footer h2{
         max-width: 250px;
     }
     nav li a{
-        margin: 4px;
+        margin: 2px;
     }
 }

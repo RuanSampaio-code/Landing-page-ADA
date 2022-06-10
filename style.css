@@ -74,6 +74,7 @@ li a{
 li a:hover{
     background-color: #47BAE9;
     color: #2D314A;
+    transition: all .5s;
     border: none;
 
 }
@@ -153,12 +154,21 @@ li a:hover{
     
 .pagina2{
     max-width: 100%;
-    color: grey;
+    color: rgb(253, 253, 253);
     margin: auto;
     margin-top: 200px;
     display: flexbox;
+    transition: color .6s;
     
 }
+.pagina2:hover{
+    color: gray;
+    
+
+
+}
+
+
 .items2{
     display: flex;
     justify-content: space-around;
@@ -189,6 +199,7 @@ li a:hover{
     margin-bottom: 50px;
     max-width: 200px;
     min-width: 10px;
+  
 }  
 
 .l1{
